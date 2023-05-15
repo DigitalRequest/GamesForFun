@@ -64,10 +64,6 @@ int main()
                     {
                         map[y][x].item.desc = "A key that seens special?";
                         map[y][x].item.code = win_key;
-
-                        printf("Y: %d, X: %d\n", y, x);
-                        printf("Code: %d\n", win_key);
-
                         placed_key = 1;
                     }
                     else
